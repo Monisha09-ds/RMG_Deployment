@@ -1,0 +1,8 @@
+streamlit>=1.0.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.2
+numpy>=1.21.0
+openai>=1.0.0
+markdown>=3.3.4
+SpeechRecognition==3.10.0
+pydub==0.25.1
