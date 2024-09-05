@@ -11,6 +11,7 @@ from pydub import AudioSegment
 
 # Set your OpenAI API key here
 openai.api_key = "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"
+openai_api_key = os.getenv("OPENAI_API_KEY")
 
 # Initialize the SentenceTransformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
